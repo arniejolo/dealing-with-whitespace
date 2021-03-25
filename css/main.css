@@ -1,10 +1,6 @@
 html {
   box-sizing: border-box;
   font-family: "Crimson Text", serif;
-  color: #222;
-  line-height: 1.3rem;
-  font-size: 1.125rem;
-
 }
 
 *, *::before, *::after {
@@ -15,11 +11,16 @@ html {
 */
 
 body {
-  margin: 1.125rem;
+  margin: 1.5rem;
+}
+
+article p {
+  color: #222;
+  line-height: 1.3rem;
+  font-size: 1.125rem;
 }
 
 article header {
-  padding: 5px;
   border-bottom: 1px solid #999;
 }
 
@@ -36,7 +37,6 @@ article header p {
 }
 
 blockquote {
-  padding: 15px;
   width: 75%;
 }
 
@@ -44,7 +44,7 @@ blockquote {
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 1.3rem;
-
+}
 
 article ol {
   padding-left: 1em;

@@ -11,15 +11,21 @@ html {
   box-sizing: inherit;
 }
 
-/* font-family: "Crimson Text'\", serif;
+/* font-family: "Crimson Text", serif;
 */
 
-}
-
 header {
-  padding: 1em;
+  padding: 5px;
+  border-bottom: 2px solid #999;
 }
 
+h1 {
+  margin-bottom: 5px;
+}
+
+header p {
+  margin-top: 3px;
+}
 article header h1 {
   font-weight: normal;
 }
@@ -32,4 +38,10 @@ article header p {
 .quote {
   font-size: 1.5rem;
   line-height: 1.3rem;
+}
+
+article {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 2px solid #999;
 }

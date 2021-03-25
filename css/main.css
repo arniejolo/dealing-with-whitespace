@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", serif;
   color: #222;
   line-height: 1.3rem;
   font-size: 1.125rem;
@@ -11,21 +11,24 @@ html {
   box-sizing: inherit;
 }
 
-/* font-family: 'Crimson Text', serif;
+/* font-family: "Crimson Text'\", serif;
 */
 
 }
 
-article header {
+header {
   padding: 1em;
 }
+
 article header h1 {
-  font-style: bold;
+  font-weight: normal;
 }
 
 article header p {
   font-style: italic;
+  color: #555;
 }
+
 .quote {
   font-size: 1.5rem;
   line-height: 1.3rem;
